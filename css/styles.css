@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Amiri', serif;
+  margin: 0;
+  padding: 40px 20px;
+  text-align: center;
+  background-image: url('/SukoonImages/background.png'); /* Adjust path as needed */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+
+  
+}
+
+.bismillah {
+  font-size: 28px;
+  margin-bottom: 250px;
+}
+
+.emotions-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* Adjusts space between images */
+}
+
+.emotion-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.emotion-item img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.emotion-text {
+  font-size: 15px;
+  color: white;
+  transition: text-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.emotion-item:hover img {
+  transform: scale(1.1);
+}
+
+.emotion-item:hover .emotion-text {
+  text-shadow: 0 0 10px white;
+  transform: scale(1.05);
+}
+
+a.emotion-link {
+  text-decoration: none;
+  color: inherit;
+}
