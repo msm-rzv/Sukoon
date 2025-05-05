@@ -12,19 +12,19 @@
     <p class="bismillah">بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ</p>
 
     <div class="ayah-container">
-      <div class="ayah-arabic" id="arabic"></div>
-      <div class="ayah-translation" id="translation"></div>
-    </div>
+        <div class="ayah-arabic" id="arabic"></div>
+        <div class="ayah-translation" id="translation"></div>
+      </div>
 
     <button onclick="openTafsir()" class="tafsir-button">Tafsir</button>
 
-<div id="tafsir-modal" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeTafsir()">&times;</span>
-    <p id="tafsir-text"></p>
-  </div>
-</div>
-
+    <div id="tafsir-modal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeTafsir()">&times;</span>
+          <h2 id="tafsir-title">Excerpt From Tafsir-al-Mizan by Mohammad Husayn Tabataba'i</h2> <!-- This is the new title -->
+          <p id="tafsir-text"></p>
+        </div>
+      </div>
     <button onclick="loadRandomAyah()" class="reload-button">Refresh</button>
   </div>
 
