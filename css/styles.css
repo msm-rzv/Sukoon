@@ -60,3 +60,52 @@ a.emotion-link {
   text-decoration: none;
   color: inherit;
 }
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 20px 10px;
+    background-attachment: scroll;
+  }
+
+  .bismillah {
+    font-size: 20px;
+    margin-bottom: 100px;
+  }
+
+  .emotion-item img {
+    width: 90%; /* Full width minus padding */
+    max-width: 300px;
+  }
+
+  .emotion-text {
+    font-size: 14px;
+  }
+
+  .ayah-container {
+    padding: 10px;
+  }
+
+  .tafsir-button,
+  .reload-button {
+    width: 90%;
+    max-width: 300px;
+    font-size: 16px;
+    margin: 10px auto;
+    padding: 10px;
+  }
+
+  .modal-content {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  #tafsir-title {
+    font-size: 18px;
+  }
+
+  #tafsir-text {
+    font-size: 16px;
+  }
+}
