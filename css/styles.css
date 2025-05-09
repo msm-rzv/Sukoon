@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 40px 20px;
   text-align: center;
-  background-image: url('/SukoonImages/background.png'); /* Adjust path as needed */
+  background-image: url('../SukoonImages/background.png'); /* Adjust path as needed */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -66,11 +66,12 @@ a.emotion-link {
   body {
     padding: 20px 10px;
     background-attachment: scroll;
+    padding-bottom: 70px; /* add this to the existing padding */
   }
 
   .bismillah {
     font-size: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
   }
 
   .emotion-item img {
