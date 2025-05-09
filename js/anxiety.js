@@ -1,26 +1,56 @@
 const ayahs = [
-    {
-      arabic: "وَقَالُوا ٱلْحَمْدُ لِلَّهِ ٱلَّذِىٓ أَذْهَبَ عَنَّا ٱلْحَزَنَ ۖ إِنَّ رَبَّنَا لَغَفُورٌۭ شَكُورٌ ۝",
-      translation: "And they will say, 'Praise be to Allah, Who has kept away from us all ˹causes of˺ sorrow. Our Lord is indeed All-Forgiving, Most Appreciative.’ (35:34)",
-      tafsir: "Some exegesis say that the sadness refers to the grief that shadows people due to the trials of life, and that it is removed when they enter heaven; thus, they are praising God for the removal of that grief. There is also a view that sadness refers to a sadness that befalls them after they pass away. It is also said that they are still troubled by the touch of their misdeeds when they enter the eternal garden [and then it is removed]. However, this would be for the person who 'wrongs his own soul' or the 'one who takes a middle course'; those who are foremost in good deeds do not have evils in their book of deeds to suffer for. This view most closely matches what they say: 'Our Lord is forgiving, gracious.'"
-    },
-    {
-      arabic: "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا ٱصْبِرُوا وَصَابِرُوا وَرَابِطُوا وَٱتَّقُوا ٱللَّهَ لَعَلَّكُمْ تُفْلِحُونَ ۝",
-      translation: "O you who believe! Be patient and help each other in patience and remain lined up; and fear (the wrath) of Allah that you may be successful. (3:200)",
-      tafsir: "The order is unrestricted. The clause, ‘be patient’, covers every type of patience: Patience in hardships, patience in the obedience of God, and patience against the disobedience of God. However, it refers to an individual's patience, as the next clause shows. al-Muṣābarah translated here as helping each other in patience, literally means vying with one another in being patient. It implies collective patience when individuals bear a common hardship together and each one's patience is augmented by others' steadfastness. In this way, their strength is enhanced, their patience redoubled and its effect multiplied. This phenomenon may easily be experienced, if we first look at an individual as a single person, and then look at his behavior in a group when he becomes a part of a collective whole, each one acting on and reacting towards the others. ... and remain lined up; and fear (the wrath of) Allah, that you may be successful: al-murābaṭah is more comprehensive than al-muṣābarah because al-murābaṭah implies people's linking up with one another in their powers, faculties, and activities in all affairs of their religious life — in time of ease as well as in difficulties. As the main aim of these orders is to let the believers attain the reality of happiness of this world and the next — otherwise only partial worldly happiness can be achieved, which obviously is not the real happiness — these orders have been followed by the words, ‘and fear (the wrath of) God, that you may be successful’, that is, you may achieve total and real happiness and success."
-    },
-    {
-      arabic: "قُل لَّن يُصِيبَنَآ إِلَّا مَا كَتَبَ ٱللَّهُ لَنَا هُوَ مَوْلَىٰنَا ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ ۝",
-      translation: "Say, 'Never will we be struck except by what Allah has decreed for us; He is our protector.' And upon Allah let the believers rely. (9:51)",
-      tafsir: "In short, it is God alone who looks after our affairs—as shown by the statement, He is our patron, which is phrased in such a way as to indicate exclusivity—and we have no say in the matter, nor any control over these apparent causes. On the contrary, the truth is that the affair rests entirely with God and He has foreordained whatever good or evil and benefit or harm will reach us. This being the case, we should only focus on obeying His commands and striving to uphold His cause. It is God's will that determines whatever good or bad will befall us—God's servants must turn over their affairs to Him, and this is the meaning of trusting in God (tawakkul)."
-    },
-    {
-      arabic: "وَٱلَّذِينَ جَـٰهَدُوا فِينَا لَنَهْدِيَنَّهُمْ سُبُلَنَا ۚ وَإِنَّ ٱللَّهَ لَمَعَ ٱلْمُحْسِنِينَ ۝",
-      translation: "And those who strive for Us—We will surely guide them to Our ways. And indeed, Allah is with the doers of good. (29:69)",
-      tafsir: "‘We shall surely guide them in Our ways...’: God affirms the existence of ways (subul) for Himself and whatever these may be, they all lead to Him, as a way (sabil) is nothing other than a means of reaching that to which it belongs, meaning its destination. Therefore, God's ways are those which bring people closer to Him and guide them towards Him. And insofar as the act of striving is itself a form of guidance, this means that guidance to God's ways is a kind of guidance upon guidance, as God alludes to in the verse: As for those who are guided, He enhances their guidance (47:17). Based on the above, we can see that there is no need to interpret 'in Us' as belonging to an implicit possessive construct to the effect of 'for Our sake'... and Allah is indeed with the virtuous: Some have said God's being with them means in the sense of His assistance and support and this is supported by the fact this phrase appears alongside mention of striving. This is a plausible..."
-    }
+  {
+    arabic: "وَتَوَكَّلْ عَلَى ٱلْحَيِّ ٱلَّذِى لَا يَمُوتُ ۖ وَسَبِّحْ بِحَمْدِهِۦ ۚ وَكَفَىٰ بِهِۦ بِذُنُوبِ عِبَادِهِۦ خَبِيرًۭا ۝",
+    translation: "Put your trust in the Ever-Living, Who never dies, and glorify His praises. Sufficient is He as All-Aware of the sins of His servants. (25:58)",
+    tafsir: "And rely on the Ever-living Who dies not...: That is: Take God as your guardian concerning their affair; He shall judge amongst them as He wills, and treat them as He sees fit. Indeed, He is a Guardian over them and over all things. This is meant to explain and justify the verse's command to rely on God. The implied argument is: Given that He is the Ever-living Who never dies, nothing can escape from Him and He does not miss anything. It thus follows that He can be relied upon. Glorify Him with praise...: Declare God's purity, clearness and exaltedness from weakness, ignorance, and any imperfection that does not befit His Sacred Precinct. Couple that with praise for His excellence. Sufficient is He as being aware of the sins of His servants: This statement proves God's unity in His actions and attributes. He is the sole authority Who manages the affairs of His servants and judges among them."
+  },
+  {
+    arabic: "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًۭا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَـٰفِرِينَ ۝",
+    translation: "Allah does not impose upon any soul more than what it can afford... So grant us victory over the disbelieving people. (2:286)",
+    tafsir: "The verse describes the divine system: God does not impose upon His servants what is beyond their power. He does not require belief in the incomprehensible, nor tasks that can't be done. It aligns with human nature and reason. The statements are tied together in harmony: God's commands are within human capacity, and His mercy and guidance follow those who submit to them."
+  },
+  {
+    arabic: "وَلَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ وَنَعْلَمُ مَا تُوَسْوِسُ بِهِۦ نَفْسُهُۥ ۖ وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ ٱلْوَرِيدِ ۝",
+    translation: "Indeed, We created humankind and know what their souls whisper to them, and We are closer to them than their jugular vein. (50:16)",
+    tafsir: "This means that God is nearer to humans than the veins that run through their bodies, especially the jugular vein. It's a metaphor to help people understand divine closeness, though God's true nearness is far more profound. He intervenes between man and his soul, and He knows even its subtlest thoughts."
+  },
+  {
+    arabic: "قُل لَّن يُصِيبَنَآ إِلَّا مَا كَتَبَ ٱللَّهُ لَنَا هُوَ مَوْلَىٰنَا ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ ۝",
+    translation: "Say, 'Never will we be struck except by what Allah has decreed for us; He is our protector.' And upon Allah let the believers rely. (9:51)",
+    tafsir: "Only God manages our affairs. He alone has preordained all good and harm. Thus, our responsibility is simply to obey Him and trust Him fully. That is the essence of tawakkul (reliance on God)."
+  },
+  {
+    arabic: "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا ۝ إِنَّ مَعَ ٱلْعُسْرِ يُسْرًۭا ۝",
+    translation: "For indeed, with hardship comes ease. Indeed, with hardship comes ease. (94:5–6)",
+    tafsir: "This verse reassures the Prophet that the burden of his mission, rejection by people, and hardship will be eased. It reflects God's ongoing practice of easing burdens after difficulty. The repetition emphasizes certainty and serves as a universal law: ease always accompanies difficulty."
+  },
+  {
+    arabic: "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ ۝ وَلَلْـَٔاخِرَةُ خَيْرٌۭ لَّكَ مِنَ ٱلْأُولَىٰ ۝",
+    translation: "Your Lord has not abandoned you, nor has He become hateful of you. And the Hereafter is better for you than the present life. (93:3–4)",
+    tafsir: "This verse reassures the Prophet during a time of silence in revelation. God affirms His grace and reminds him that the afterlife holds even greater blessings. It's a divine promise of continued support and ultimate reward."
+  },
+  {
+    arabic: "إِن يَنصُرْكُمُ ٱللَّهُ فَلَا غَالِبَ لَكُمْ ۖ وَإِن يَخْذُلْكُمْ فَمَن ذَا ٱلَّذِى يَنصُرُكُم مِّنۢ بَعْدِهِۦ ۗ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ ۝",
+    translation: "If Allah assists you, none can overcome you; but if He forsakes you, who can help you then? So let the believers rely upon Allah. (3:160)",
+    tafsir: "The verse calls believers to complete trust in God. If He supports you, you're undefeatable. If He abandons you, no one else can help. Believers are encouraged to rely entirely on God for all their affairs."
+  },
+  {
+    arabic: "وَتَوَكَّلْ عَلَى ٱللَّهِ ۚ وَكَفَىٰ بِٱللَّهِ وَكِيلًا ۝",
+    translation: "And rely upon Allah; sufficient is Allah as Disposer of affairs. (33:3)",
+    tafsir: "God urges reliance upon Him in all matters, especially when the commands of revelation are difficult. His sufficiency is greater than any human or material aid. He is the ultimate means by which all tasks are fulfilled."
+  },
+  {
+    arabic: "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّـٰبِرِينَ ۝",
+    translation: "O you who believe, seek help through patience and prayer. Indeed, Allah is with the patient. (2:153)",
+    tafsir: "This verse prepares believers for hardship. Patience protects them from despair; prayer redirects their focus to God. Together, these help believers endure and succeed through divine mercy and strength."
+  },
+  {
+    arabic: "أَلَيْسَ ٱللَّهُ بِكَافٍ عَبْدَهُۥ ۖ وَيُخَوِّفُونَكَ بِٱلَّذِينَ مِن دُونِهِۦ ۚ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍۢ ۝",
+    translation: "Is not Allah sufficient for His servant? Yet they threaten you with others besides Him. Whoever Allah leaves to stray will have no guide. (39:36)",
+    tafsir: "God asks rhetorically to reassure the Prophet: isn't God enough? Yes, He is. The threats of idolaters are meaningless because Allah alone protects, guides, and suffices His servant. This is a declaration of God's supremacy."
+  }
+];
 
-  ];
 
   let currentAyah = null;
 
