@@ -19,6 +19,37 @@ const ayahs = [
       translation: "And those who strive for Us—We will surely guide them to Our ways. And indeed, Allah is with the doers of good. (29:69)",
       tafsir: "‘We shall surely guide them in Our ways...’: God affirms the existence of ways (subul) for Himself and whatever these may be, they all lead to Him, as a way (sabil) is nothing other than a means of reaching that to which it belongs, meaning its destination. Therefore, God's ways are those which bring people closer to Him and guide them towards Him. And insofar as the act of striving is itself a form of guidance, this means that guidance to God's ways is a kind of guidance upon guidance, as God alludes to in the verse: As for those who are guided, He enhances their guidance (47:17). Based on the above, we can see that there is no need to interpret 'in Us' as belonging to an implicit possessive construct to the effect of 'for Our sake'... and Allah is indeed with the virtuous: Some have said God's being with them means in the sense of His assistance and support and this is supported by the fact this phrase appears alongside mention of striving. This is a plausible..."
     }
-    
-  ]
+
+  ];
+
+  let currentAyah = null;
+
+  window.onload = function () {
+    loadRandomAyah();
+  };
+
+  function loadRandomAyah() {
+    currentAyah = ayahs[Math.floor(Math.random() * ayahs.length)];
+    document.getElementById('arabic').innerText = currentAyah.arabic;
+    document.getElementById('translation').innerText = currentAyah.translation;
+  }
+  
+  function openTafsir() {
+    if (currentAyah && currentAyah.tafsir) {
+      document.getElementById('tafsir-text').innerText = currentAyah.tafsir;
+      document.getElementById('tafsir-modal').style.display = 'block';
+    }
+  }
+  
+  function closeTafsir() {
+    document.getElementById('tafsir-modal').style.display = 'none';
+  }
+  
+  window.onclick = function(event) {
+    const modal = document.getElementById('tafsir-modal');
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  
   
