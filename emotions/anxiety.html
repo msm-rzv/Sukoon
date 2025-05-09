@@ -3,8 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Anxiety | Sukoon</title>
-  <link rel="stylesheet" href="/css/grief.css">
-  <link rel="icon" type="image/x-icon" href="/SukoonImages/grief.png">
+  
+  <!-- FIXED: Path from 'emotions/' to 'css/' -->
+  <link rel="stylesheet" href="../css/grief.css">
+  
+  <!-- FIXED: Path from 'emotions/' to 'SukoonImages/' -->
+  <link rel="icon" type="image/x-icon" href="../SukoonImages/grief.png">
+  
   <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -21,13 +26,15 @@
     <div id="tafsir-modal" class="modal">
         <div class="modal-content">
           <span class="close" onclick="closeTafsir()">&times;</span>
-          <h2 id="tafsir-title">Excerpt From Tafsir-al-Mizan by Mohammad Husayn Tabataba'i</h2> <!-- This is the new title -->
+          <h2 id="tafsir-title">Excerpt From Tafsir-al-Mizan by Mohammad Husayn Tabataba'i</h2>
           <p id="tafsir-text"></p>
         </div>
       </div>
+      
     <button onclick="loadRandomAyah()" class="reload-button">Refresh</button>
   </div>
 
-  <script src="/js/anxiety.js"></script>
+  <!-- FIXED: Path from 'emotions/' to 'js/' -->
+  <script src="../js/anxiety.js"></script>
 </body>
 </html>
