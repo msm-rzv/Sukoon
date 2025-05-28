@@ -14,7 +14,7 @@ Clean, calming interface with spiritual design elements
 Responsive design for various devices
 
 Technologies Used
-Frontend: HTML5, CSS3, JavaScript
+Frontend: HTML, CSS, JavaScript
 
 Design: Figma (wireframing & prototyping)
 
