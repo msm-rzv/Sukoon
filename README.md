@@ -1,0 +1,1 @@
+Sukoon bridges the gap between mental health and spirituality. It’s an interactive emotional tool rooted in the Quran: users select an emotion—gratitude, grief, hope, or anxiety—and receive a handpicked ayah and tafsir for mindful reflection and inner calm.
