@@ -41,6 +41,7 @@ Receive a curated Quranic verse and its interpretation
 Reflect on the spiritual guidance provided
 
 Glossary
+
 Quran: The central religious text of Islam
 
 Ayah: A verse from the Quran
