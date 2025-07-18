@@ -61,6 +61,45 @@ a.emotion-link {
   color: inherit;
 }
 
+/* ThinkPad Responsive Design - targeting 1366x768 and similar laptop screens */
+@media (min-width: 769px) and (max-width: 1440px) and (max-height: 900px) {
+  body {
+    padding: 20px 15px; /* Reduced from 40px 20px */
+  }
+
+  .bismillah {
+    font-size: 22px; /* Reduced from 28px */
+    margin-bottom: 80px; /* Reduced from 200px */
+  }
+
+  .emotion-item img {
+    width: 220px; /* Reduced from 300px */
+  }
+
+  .emotion-text {
+    font-size: 14px; /* Reduced from 15px */
+  }
+
+  .emotions-list {
+    gap: 15px; /* Increased from 5px for better spacing */
+    max-width: 1000px; /* Added max-width for better layout */
+    margin: 0 auto; /* Center the container */
+  }
+
+  .emotion-item {
+    gap: 10px; /* Reduced from 15px */
+  }
+
+  .emotion-item:hover img {
+    transform: scale(1.05); /* Reduced from 1.1 */
+  }
+
+  .emotion-item:hover .emotion-text {
+    transform: scale(1.03); /* Reduced from 1.05 */
+  }
+}
+
+
 /* Mobile Responsive Design */
 @media (max-width: 768px) {
   body {

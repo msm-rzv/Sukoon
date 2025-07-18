@@ -108,6 +108,55 @@ body {
     font-size: 28px;
     cursor: pointer;
   }
+  @media (min-width: 769px) and (max-width: 1440px) and (max-height: 900px) {
+    body {
+        padding: 20px 15px; /* Reduced from 40px 20px */
+    }
+
+    .bismillah {
+        font-size: 22px; /* Reduced from 28px */
+        margin-bottom: 50px; /* Reduced from 100px */
+    }
+
+    .ayah-container {
+        gap: 30px; /* Reduced from 40px */
+        margin: 0 auto 30px auto; /* Reduced from 50px */
+        max-width: 900px; /* Reduced from 1000px */
+        padding: 0 15px; /* Reduced from 20px */
+    }
+
+    .ayah-arabic, .ayah-translation {
+        max-width: 800px; /* Reduced from 900px */
+        font-size: 20px; /* Reduced from 25px */
+        line-height: 1.6; /* Reduced from 1.8 */
+        padding: 15px; /* Reduced from 20px */
+        border-radius: 8px; /* Reduced from 10px */
+        box-shadow: 0 0 6px rgba(255,255,255,0.1); /* Reduced from 8px */
+    }
+
+    .reload-button, .tafsir-button {
+        padding: 8px 16px; /* Reduced from 10px 20px */
+        font-size: 14px; /* Reduced from 16px */
+        margin: 8px; /* Reduced from 10px */
+    }
+
+    .modal {
+        padding-top: 80px; /* Reduced from 100px */
+    }
+
+    .modal-content {
+        padding: 25px; /* Reduced from 30px */
+        width: 75%; /* Reduced from 80% */
+        max-width: 550px; /* Reduced from 600px */
+        border-radius: 8px; /* Reduced from 10px */
+    }
+
+    .close {
+        top: 8px; /* Reduced from 10px */
+        right: 15px; /* Reduced from 20px */
+        font-size: 24px; /* Reduced from 28px */
+    }
+}
   
   /* Mobile Responsive Styles */
 @media (max-width: 768px) {
